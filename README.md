@@ -1,3 +1,4 @@
 # CircularScrollImageView
 
-ㄴㅇㄹㅁㅇㄹ
+*Explain
+
