@@ -15,6 +15,7 @@
 		7DFE482E26F1C49C004B9731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE482C26F1C49C004B9731 /* LaunchScreen.storyboard */; };
 		7DFE483926F1C49D004B9731 /* CircularScrollImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE483826F1C49D004B9731 /* CircularScrollImageViewTests.swift */; };
 		7DFE484426F1C49D004B9731 /* CircularScrollImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE484326F1C49D004B9731 /* CircularScrollImageViewUITests.swift */; };
+		7DFE485226F1CBCF004B9731 /* ScrollImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE485126F1CBCF004B9731 /* ScrollImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7DFE483F26F1C49D004B9731 /* CircularScrollImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularScrollImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFE484326F1C49D004B9731 /* CircularScrollImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularScrollImageViewUITests.swift; sourceTree = "<group>"; };
 		7DFE484526F1C49D004B9731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFE485126F1CBCF004B9731 /* ScrollImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7DFE482026F1C49B004B9731 /* CircularScrollImageView */ = {
 			isa = PBXGroup;
 			children = (
+				7DFE485126F1CBCF004B9731 /* ScrollImageView.swift */,
 				7DFE482126F1C49B004B9731 /* AppDelegate.swift */,
 				7DFE482326F1C49B004B9731 /* SceneDelegate.swift */,
 				7DFE482526F1C49B004B9731 /* ViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DFE482626F1C49B004B9731 /* ViewController.swift in Sources */,
+				7DFE485226F1CBCF004B9731 /* ScrollImageView.swift in Sources */,
 				7DFE482226F1C49B004B9731 /* AppDelegate.swift in Sources */,
 				7DFE482426F1C49B004B9731 /* SceneDelegate.swift in Sources */,
 			);
@@ -438,6 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CircularScrollImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CircularScrollImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
