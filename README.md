@@ -42,3 +42,6 @@ scrollImageView.onClickImageHandler = { (index) in
   // do something
 }
 ```
+
+* Quick Demo
+<img width="50%" src="https://github.com/idevjames/CircularScrollImageView/issues/2#issue-997657619"/>
