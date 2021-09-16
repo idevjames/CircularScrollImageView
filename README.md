@@ -5,6 +5,9 @@
 > 간편하게 사용할 수 있도록 작업하였습니다.
 
 ### Usage
+* Requirements
+> Drag&Drop [ScrollImageView.swift]
+
 * Basics
 ``` Swift
 /// Set ScrollImageView
@@ -20,7 +23,7 @@ scrollImageView.reloadData([YOUR IMAGES], configuration: nil)
 
 * Customizing configuration
 ``` Swift
-/// Define
+/// Pre-define
 struct ScrollImageViewConfiguration {
     var usePageControl: Bool = true
     var contentMode: UIView.ContentMode = .scaleAspectFit
